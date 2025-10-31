@@ -9,7 +9,7 @@
 
 # 1C:Jet (Türkçe)
 
-[🇹🇷 Türkçe](#türkçe) | [🇬🇧 English](#english)
+[🇹🇷 Türkçe](#-türkçe) | [🇬🇧 English](#-english)
 
 ---
 
