@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.17">
+	<Subsystem uuid="d6f41303-2714-4e54-aabe-bef6800634bc">
+		<Properties>
+			<Name>InternalSubsystem</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Internal subsystem</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>tr</v8:lang>
+					<v8:content>Dahili alt sistem</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment/>
+			<IncludeHelpInContents>true</IncludeHelpInContents>
+			<IncludeInCommandInterface>false</IncludeInCommandInterface>
+			<UseOneCommand>false</UseOneCommand>
+			<Explanation/>
+			<Picture/>
+			<Content>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.JetCached</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.JetServer</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.JetServerCall</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.InfobaseUpdateJet</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.InventoryTabularSectionClientServer</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.SectionCompany</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.SectionPurchases</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Enum.ProductTypes</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ObjectFillingJet</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.PostingManagement</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonTemplate.SystemReleaseNotes</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ProductsAttachedFiles</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.CounterpartiesAttachedFiles</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.SupplierInvoiceAttachedFiles</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.SectionSales</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.SalesInvoiceAttachedFiles</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.PriceTypesAttachedFiles</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.WarehousesAttachedFiles</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.InventoryIncreaseAttachedFiles</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.InventoryTransferAttachedFiles</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.InventoryWriteOffAttachedFiles</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.CashVoucherAttachedFiles</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.BankAccountsAttachedFiles</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.CashAccountsAttachedFiles</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.BankPaymentAttachedFiles</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.BankReceiptAttachedFiles</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.CashReceiptAttachedFiles</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Enum.LiabilityTypes</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.JetClientServer</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">StyleItem.HintTextColor</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonForm.SelectAdvances</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.SectionSettings</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">EventSubscription.SetDocumentDeletionMarkChangeStatus</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">EventSubscription.SetObjectDeletionMarkChangeStatus</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ImportDataFromFileJet</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonCommand.GitHubRepository</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonCommand.JetProductPage</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonCommand.MyNotes</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonCommand.MyReminders</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommandGroup.OrganizerJet</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommandGroup.Documents</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommandGroup.Catalogs</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.UserRemindersJet</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Report.Dashboard</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.BasicRights</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.PricesSetupAuxiliary</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.FirstLaunch</xr:Item>
+			</Content>
+		</Properties>
+		<ChildObjects>
+			<Subsystem>Address</Subsystem>
+		</ChildObjects>
+	</Subsystem>
+</MetaDataObject>

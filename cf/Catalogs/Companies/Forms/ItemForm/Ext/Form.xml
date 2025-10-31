@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.17">
+	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+	<UseForFoldersAndItems>Items</UseForFoldersAndItems>
+	<AutoCommandBar name="FormCommandBar" id="-1"/>
+	<Events>
+		<Event name="AfterWrite">AfterWrite</Event>
+		<Event name="OnReadAtServer">OnReadAtServer</Event>
+		<Event name="OnOpen">OnOpen</Event>
+		<Event name="OnCreateAtServer">OnCreateAtServer</Event>
+		<Event name="BeforeWriteAtServer">BeforeWriteAtServer</Event>
+		<Event name="FillCheckProcessingAtServer">FillCheckProcessingAtServer</Event>
+	</Events>
+	<ChildItems>
+		<Pages name="Pages" id="13">
+			<ExtendedTooltip name="PagesExtendedTooltip" id="14"/>
+			<ChildItems>
+				<Page name="GroupGeneral" id="15">
+					<Title>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>General</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>tr</v8:lang>
+							<v8:content>Genel</v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedTooltip name="GroupGeneralExtendedTooltip" id="16"/>
+					<ChildItems>
+						<CheckBoxField name="IsIndividual" id="19">
+							<DataPath>Object.IsIndividual</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Type</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>tr</v8:lang>
+									<v8:content>Tür</v8:content>
+								</v8:item>
+							</Title>
+							<CheckBoxType>Tumbler</CheckBoxType>
+							<EditFormat>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>BF='Legal entity'; BT=Individual</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>tr</v8:lang>
+									<v8:content>BF='Tüzel kişi'; BT=Kişi</v8:content>
+								</v8:item>
+							</EditFormat>
+							<ContextMenu name="IsIndividualContextMenu" id="20"/>
+							<ExtendedTooltip name="IsIndividualExtendedTooltip" id="21"/>
+						</CheckBoxField>
+						<InputField name="Description" id="1">
+							<DataPath>Object.Description</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="DescriptionContextMenu" id="2"/>
+							<ExtendedTooltip name="DescriptionExtendedTooltip" id="3"/>
+						</InputField>
+						<InputField name="LegalName" id="4">
+							<DataPath>Object.LegalName</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="LegalNameContextMenu" id="5"/>
+							<ExtendedTooltip name="LegalNameExtendedTooltip" id="6"/>
+						</InputField>
+						<InputField name="TIN" id="7">
+							<DataPath>Object.TIN</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="TINContextMenu" id="8"/>
+							<ExtendedTooltip name="TINExtendedTooltip" id="9"/>
+						</InputField>
+						<InputField name="PresentationCurrency" id="10">
+							<DataPath>Object.PresentationCurrency</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="PresentationCurrencyContextMenu" id="11"/>
+							<ExtendedTooltip name="PresentationCurrencyExtendedTooltip" id="12"/>
+						</InputField>
+						<InputField name="RegistrationNumber" id="25">
+							<DataPath>Object.RegistrationNumber</DataPath>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="RegistrationNumberContextMenu" id="26"/>
+							<ExtendedTooltip name="RegistrationNumberExtendedTooltip" id="27"/>
+						</InputField>
+						<InputField name="RegistrationCountry" id="28">
+							<DataPath>Object.RegistrationCountry</DataPath>
+							<HorizontalStretch>false</HorizontalStretch>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="RegistrationCountryContextMenu" id="29"/>
+							<ExtendedTooltip name="RegistrationCountryExtendedTooltip" id="30"/>
+						</InputField>
+						<InputField name="RegistrationDate" id="31">
+							<DataPath>Object.RegistrationDate</DataPath>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="RegistrationDateContextMenu" id="32"/>
+							<ExtendedTooltip name="RegistrationDateExtendedTooltip" id="33"/>
+						</InputField>
+						<InputField name="MersisNumber" id="34">
+							<DataPath>Object.MersisNumber</DataPath>
+							<HorizontalStretch>false</HorizontalStretch>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="MersisNumberContextMenu" id="35"/>
+							<ExtendedTooltip name="MersisNumberExtendedTooltip" id="36"/>
+						</InputField>
+						<InputField name="TaxOffice" id="22">
+							<DataPath>Object.TaxOffice</DataPath>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="TaxOfficeContextMenu" id="23"/>
+							<ExtendedTooltip name="TaxOfficeExtendedTooltip" id="24"/>
+						</InputField>
+					</ChildItems>
+				</Page>
+				<Page name="ContactInformationGroup" id="17">
+					<Title>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Addresses, phones</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>tr</v8:lang>
+							<v8:content>Adresler, telefonlar</v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedTooltip name="ContactInformationGroupExtendedTooltip" id="18"/>
+				</Page>
+			</ChildItems>
+		</Pages>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Object" id="1">
+			<Type>
+				<v8:Type>cfg:CatalogObject.Companies</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+		</Attribute>
+	</Attributes>
+</Form>
