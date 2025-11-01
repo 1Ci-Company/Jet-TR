@@ -53,16 +53,16 @@ Geliştirme Dalları
 Ayrıntılı kurulum ve kullanım kılavuzları için **[Wiki](https://github.com/1Ci-Company/Jet-TR/wiki)** sayfasını ziyaret edin.
 
 Mevcut makaleler:
-- Başlarken (Getting Started)  
-- Özellikler (Features)  
-- Platform Nasıl Kurulur  
-- Jet Nasıl Kurulur (Yükleyici / Depo)  
-- 1C:Jet İlk Kurulum Rehberi  
-- 1C:Jet Nasıl Kullanılır  
-- E-Fatura Gönderimi (EDM ile)  
-- Katkıda Bulunma (Contributing)
+- [Başlarken](https://github.com/1Ci-Company/Jet-TR/wiki/Ba%C5%9Flarken)  
+- [Özellikler](https://github.com/1Ci-Company/Jet-TR/wiki/%C3%96zellikler) 
+- [Platform kurulum rehberi](https://github.com/1Ci-Company/Jet-TR/wiki/Platform-kurulum-rehberi)  
+- [Jet Kurulum Paketi ile Nasıl Kurabilirsiniz](https://github.com/1Ci-Company/Jet-TR/wiki/Jet-Kurulum-Paketi-ile-Nas%C4%B1l-Kurabilirsiniz) 
+- [Jet repository kullanarak nasıl kurabilirsiniz](https://github.com/1Ci-Company/Jet-TR/wiki/Jet-repository-kullanarak-nas%C4%B1l-kurabilirsiniz)  
+- [İlk kurulum kılavuzu](https://github.com/1Ci-Company/Jet-TR/wiki/%C4%B0lk-kurulum-k%C4%B1lavuzu)  
+- [EDM ile E‐Fatura Gönderme](https://github.com/1Ci-Company/Jet-TR/wiki/EDM-ile-E%E2%80%90Fatura-G%C3%B6nderme) 
+- [Katkıda bulunma](https://github.com/1Ci-Company/Jet-TR/wiki/Katk%C4%B1da-bulunma)
 
-Başlangıç noktası → [Başlarken](https://github.com/1Ci-Company/Jet-TR/wiki/Getting-started)
+Başlangıç noktası → [Başlarken](https://github.com/1Ci-Company/Jet/wiki/Ba%C5%9Flarken)
 
 ---
 
@@ -82,7 +82,7 @@ Issue etiketleri:
 ## Katkıda Bulunma
 
 Türk geliştiricilerden ve 1C meraklılarından katkılar bekliyoruz!  
-İlk pull request’inizi göndermeden önce [Katkı Rehberi](https://github.com/1Ci-Company/Jet-TR/wiki/Contributing) sayfasını okuyun.
+İlk pull request’inizi göndermeden önce [Katkı Rehberi](https://github.com/1Ci-Company/Jet/wiki/Katk%C4%B1da-bulunma) sayfasını okuyun.
 
 Önerilen iş akışı:
 1. Depoyu forklayın  
