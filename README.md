@@ -82,7 +82,7 @@ Issue etiketleri:
 ## Katkıda Bulunma
 
 Türk geliştiricilerden ve 1C meraklılarından katkılar bekliyoruz!  
-İlk pull request’inizi göndermeden önce [Katkı Rehberi](https://github.com/1Ci-Company/Jet/wiki/Katk%C4%B1da-bulunma) sayfasını okuyun.
+İlk pull request’inizi göndermeden önce [Katkı Rehberi](https://github.com/1Ci-Company/Jet-TR/wiki/Katk%C4%B1da-bulunma) sayfasını okuyun.
 
 Önerilen iş akışı:
 1. Depoyu forklayın  
