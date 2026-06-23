@@ -22,6 +22,10 @@
 					<v8:lang>en</v8:lang>
 					<v8:content>Administration, setup, utility functions</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>tr</v8:lang>
+					<v8:content>Yönetim, kurulum, yardımcı fonksiyonlar</v8:content>
+				</v8:item>
 			</Explanation>
 			<Picture>
 				<xr:Ref>CommonPicture.SectionSettings</xr:Ref>
