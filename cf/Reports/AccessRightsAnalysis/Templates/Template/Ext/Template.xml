@@ -309,7 +309,7 @@
 				</v8:item>
 				<v8:item>
 					<v8:lang>tr</v8:lang>
-					<v8:content>Hepsine izin verildi</v8:content>
+					<v8:content>Tüm izin verilenler</v8:content>
 				</v8:item>
 			</title>
 			<valueType>
@@ -1917,7 +1917,7 @@
 						<dcsat:value xsi:type="v8:LocalStringType">
 							<v8:item>
 								<v8:lang>en</v8:lang>
-								<v8:content>- view, edit, and create</v8:content>
+								<v8:content>- View, edit, and create</v8:content>
 							</v8:item>
 							<v8:item>
 								<v8:lang>tr</v8:lang>
@@ -2229,7 +2229,7 @@
 						<dcsat:value xsi:type="v8:LocalStringType">
 							<v8:item>
 								<v8:lang>en</v8:lang>
-								<v8:content>- view is restricted</v8:content>
+								<v8:content>- View is restricted</v8:content>
 							</v8:item>
 							<v8:item>
 								<v8:lang>tr</v8:lang>
