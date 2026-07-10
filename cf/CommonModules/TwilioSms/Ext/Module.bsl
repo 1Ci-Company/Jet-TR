@@ -1,0 +1,10 @@
+﻿function sendSMS(number, Text) Export
+                AccountSID = Constants.TwilioAcountSID.Get(); 
+	AuthToken  = Constants.TwilioAuthToken.Get();     
+	FromNumber = Constants.TwilioFromNumber.Get()	;                                   ServerAddress = "api.twilio.com";    Connection = New HTTPConnection(ServerAddress, 443, , , , , New OpenSSLSecureConnection);            RequestPath = "/2010-04-01/Accounts/" + AccountSID + "/Messages.json";    Request = New HTTPRequest(RequestPath);            Request.Headers.Insert("Content-Type", "application/x-www-form-urlencoded");    	
+	CredentialsString = AccountSID + ":" + AuthToken;    Base64Credentials = Base64String(GetBinaryDataFromString(CredentialsString, "UTF-8", False));	
+	Base64Credentials = StrReplace(Base64Credentials, Chars.LF, "");    Base64Credentials = StrReplace(Base64Credentials, Chars.CR, "");        Request.Headers.Insert("Authorization", StrTemplate("Basic %1", Base64Credentials));    	
+	EncodedTo   = StrReplace(number, "+", "%2B");    EncodedFrom = StrReplace(FromNumber, "+", "%2B");    	
+	EncodedBody = EncodeString(Text, StringEncodingMethod.URLEncoding);        BodyString = "To=" + EncodedTo + "&From=" + EncodedFrom + "&Body=" + EncodedBody;    Request.SetBodyFromString(BodyString, "UTF-8", ByteOrderMarkUse.DontUse);    	
+	Try        Response = Connection.Post(Request);		
+		If Response.StatusCode = 201 Or Response.StatusCode = 200 Then            Message(NStr("en = 'SMS request accepted successfully via Twilio!'; tr = 'Twilio üzerinden SMS isteği başarıyla kabul edildi!'"));            Return True;        Else            Message(NStr("en = 'Failed to send SMS. Status code:'; tr = 'SMS gönderilemedi. Durum kodu:' ") + Response.StatusCode);            Message(NStr("en = 'Server''s response: '; tr = 'Sunucu cevabı: ' ") + Response.GetBodyAsString());            Return False;        EndIf;    Except        Message(NStr("en = 'An error occurred during the request:'; tr = 'İstek sırasında bir hata oluştu:' ") + ErrorDescription());        Return False;    EndTry;EndFunction
