@@ -305,6 +305,7 @@
 			<Subsystem>Sales</Subsystem>
 			<Subsystem>StandardSubsystems</Subsystem>
 			<Subsystem>Warehouses</Subsystem>
+			<Subsystem>Twilio</Subsystem>
 			<StyleItem>ActionInListColumnFont</StyleItem>
 			<StyleItem>AddedAttributeBackground</StyleItem>
 			<StyleItem>AllowedAccessRightColor</StyleItem>
@@ -831,6 +832,7 @@
 			<CommonPicture>WordFormat2007</CommonPicture>
 			<CommonPicture>WriteSMS</CommonPicture>
 			<CommonPicture>YandexMaps</CommonPicture>
+			<CommonPicture>SectionTwilio</CommonPicture>
 			<SessionParameter>AccessKindsWithoutGroupsForAccessValues</SessionParameter>
 			<SessionParameter>AccessKindsWithSingleGroupForAccessValue</SessionParameter>
 			<SessionParameter>AccessRestrictionParameters</SessionParameter>
@@ -939,6 +941,7 @@
 			<Role>ViewDocumentRecordsReport</Role>
 			<Role>ViewEventLog</Role>
 			<Role>ViewRelatedDocuments</Role>
+			<Role>UseTwilioIntegration</Role>
 			<CommonTemplate>DocumentScanningAddIn_3_0_1_1033</CommonTemplate>
 			<CommonTemplate>EmptyDOCXTemplate</CommonTemplate>
 			<CommonTemplate>GetUpdateHandlersTree</CommonTemplate>
@@ -1247,6 +1250,7 @@
 			<CommonModule>UsersInternalClientServer</CommonModule>
 			<CommonModule>UsersOverridable</CommonModule>
 			<CommonModule>VATWithholdingServerCall</CommonModule>
+			<CommonModule>TwilioSms</CommonModule>
 			<CommonAttribute>EditedPredefinedAttributes</CommonAttribute>
 			<ExchangePlan>InfobaseUpdate</ExchangePlan>
 			<XDTOPackage>ApplicationExtensionsManifest_1_0_0_1</XDTOPackage>
@@ -1574,6 +1578,9 @@
 			<Constant>VolumePathIgnoreRegionalSettings</Constant>
 			<Constant>WindowsTemporaryFilesDerectory</Constant>
 			<Constant>WriteIBUpdateDetailsToEventLog</Constant>
+			<Constant>TwilioAcountSID</Constant>
+			<Constant>TwilioAuthToken</Constant>
+			<Constant>TwilioFromNumber</Constant>
 			<CommonForm>AccessRights</CommonForm>
 			<CommonForm>AccessRightsSimplified</CommonForm>
 			<CommonForm>AddInInstallationQuestion</CommonForm>
@@ -1859,6 +1866,7 @@
 			<DataProcessor>ToDoList</DataProcessor>
 			<DataProcessor>UpdateHandlersDetails</DataProcessor>
 			<DataProcessor>UsersSettings</DataProcessor>
+			<DataProcessor>TwiloSendSMS</DataProcessor>
 			<InformationRegister>AccessGroupsAccessKeys</InformationRegister>
 			<InformationRegister>AccessGroupSetsAccessKeys</InformationRegister>
 			<InformationRegister>AccessGroupsTables</InformationRegister>
