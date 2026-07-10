@@ -297,7 +297,6 @@
 			<Language>Turkish</Language>
 			<Subsystem>Administration</Subsystem>
 			<Subsystem>AttachableReportsAndDataProcessors</Subsystem>
-			<Subsystem>CashManagement</Subsystem>
 			<Subsystem>Company</Subsystem>
 			<Subsystem>EDI</Subsystem>
 			<Subsystem>InternalSubsystem</Subsystem>
@@ -305,6 +304,8 @@
 			<Subsystem>Sales</Subsystem>
 			<Subsystem>StandardSubsystems</Subsystem>
 			<Subsystem>Warehouses</Subsystem>
+			<Subsystem>CashManagement</Subsystem>
+			<Subsystem>AI</Subsystem>
 			<StyleItem>ActionInListColumnFont</StyleItem>
 			<StyleItem>AddedAttributeBackground</StyleItem>
 			<StyleItem>AllowedAccessRightColor</StyleItem>
@@ -380,7 +381,6 @@
 			<StyleItem>WarningTextColor</StyleItem>
 			<CommonPicture>AccessLevelAdministrationSource</CommonPicture>
 			<CommonPicture>AccessLevelCreate</CommonPicture>
-			<CommonPicture>AccessLevelEdit</CommonPicture>
 			<CommonPicture>AccessLevelHasRight</CommonPicture>
 			<CommonPicture>AccessLevelInstall</CommonPicture>
 			<CommonPicture>AccessLevelReceive</CommonPicture>
@@ -831,6 +831,8 @@
 			<CommonPicture>WordFormat2007</CommonPicture>
 			<CommonPicture>WriteSMS</CommonPicture>
 			<CommonPicture>YandexMaps</CommonPicture>
+			<CommonPicture>AccessLevelEdit</CommonPicture>
+			<CommonPicture>SectionAI</CommonPicture>
 			<SessionParameter>AccessKindsWithoutGroupsForAccessValues</SessionParameter>
 			<SessionParameter>AccessKindsWithSingleGroupForAccessValue</SessionParameter>
 			<SessionParameter>AccessRestrictionParameters</SessionParameter>
@@ -875,7 +877,6 @@
 			<SessionParameter>UsersCatalogsUpdate</SessionParameter>
 			<Role>AddEditAdditionalAttributesAndInfo</Role>
 			<Role>AddEditAdditionalReportsAndDataProcessors</Role>
-			<Role>AddEditContactInfoKind</Role>
 			<Role>AddEditCurrencyRates</Role>
 			<Role>AddEditEmailAccounts</Role>
 			<Role>AddEditExternalUsers</Role>
@@ -939,6 +940,8 @@
 			<Role>ViewDocumentRecordsReport</Role>
 			<Role>ViewEventLog</Role>
 			<Role>ViewRelatedDocuments</Role>
+			<Role>AddEditContactInfoKind</Role>
+			<Role>UseAI</Role>
 			<CommonTemplate>DocumentScanningAddIn_3_0_1_1033</CommonTemplate>
 			<CommonTemplate>EmptyDOCXTemplate</CommonTemplate>
 			<CommonTemplate>GetUpdateHandlersTree</CommonTemplate>
@@ -954,7 +957,6 @@
 			<FilterCriterion>RelatedDocuments</FilterCriterion>
 			<CommonModule>AccessManagement</CommonModule>
 			<CommonModule>AccessManagementInternal</CommonModule>
-			<CommonModule>AccessManagementInternalCached</CommonModule>
 			<CommonModule>AccessManagementInternalClient</CommonModule>
 			<CommonModule>AccessManagementInternalClientServer</CommonModule>
 			<CommonModule>AccessManagementInternalServerCall</CommonModule>
@@ -1247,6 +1249,8 @@
 			<CommonModule>UsersInternalClientServer</CommonModule>
 			<CommonModule>UsersOverridable</CommonModule>
 			<CommonModule>VATWithholdingServerCall</CommonModule>
+			<CommonModule>AccessManagementInternalCached</CommonModule>
+			<CommonModule>GroqAi</CommonModule>
 			<CommonAttribute>EditedPredefinedAttributes</CommonAttribute>
 			<ExchangePlan>InfobaseUpdate</ExchangePlan>
 			<XDTOPackage>ApplicationExtensionsManifest_1_0_0_1</XDTOPackage>
@@ -1496,7 +1500,6 @@
 			<CommandGroup>Print</CommandGroup>
 			<Constant>AccessUpdateThreadsCount</Constant>
 			<Constant>ChangeJobsBackdated</Constant>
-			<Constant>CheckIfObjectsToDeleteAreUsed</Constant>
 			<Constant>CreateSubdirectoriesWithOwnersNames</Constant>
 			<Constant>DefaultLanguage</Constant>
 			<Constant>DeferredMasterNodeUpdateCompleted</Constant>
@@ -1574,6 +1577,8 @@
 			<Constant>VolumePathIgnoreRegionalSettings</Constant>
 			<Constant>WindowsTemporaryFilesDerectory</Constant>
 			<Constant>WriteIBUpdateDetailsToEventLog</Constant>
+			<Constant>CheckIfObjectsToDeleteAreUsed</Constant>
+			<Constant>GrokAPIKey</Constant>
 			<CommonForm>AccessRights</CommonForm>
 			<CommonForm>AccessRightsSimplified</CommonForm>
 			<CommonForm>AddInInstallationQuestion</CommonForm>
@@ -1720,6 +1725,7 @@
 			<Catalog>WarehousesAttachedFiles</Catalog>
 			<Catalog>WorldCountries</Catalog>
 			<Catalog>XSLT</Catalog>
+			<Catalog>AIPromtTemplates</Catalog>
 			<Document>BankPayment</Document>
 			<Document>BankReceipt</Document>
 			<Document>CashReceipt</Document>
@@ -1835,7 +1841,6 @@
 			<Report>VolumeIntegrityCheck</Report>
 			<DataProcessor>ApplicationUpdateResult</DataProcessor>
 			<DataProcessor>AutoTextExtraction</DataProcessor>
-			<DataProcessor>BatchEditAttributes</DataProcessor>
 			<DataProcessor>BusinessProcessFlowchart</DataProcessor>
 			<DataProcessor>ContactInformationInput</DataProcessor>
 			<DataProcessor>DuplicateObjectsDetection</DataProcessor>
@@ -1859,6 +1864,8 @@
 			<DataProcessor>ToDoList</DataProcessor>
 			<DataProcessor>UpdateHandlersDetails</DataProcessor>
 			<DataProcessor>UsersSettings</DataProcessor>
+			<DataProcessor>BatchEditAttributes</DataProcessor>
+			<DataProcessor>AIFillProductDefinitions</DataProcessor>
 			<InformationRegister>AccessGroupsAccessKeys</InformationRegister>
 			<InformationRegister>AccessGroupSetsAccessKeys</InformationRegister>
 			<InformationRegister>AccessGroupsTables</InformationRegister>
